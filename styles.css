@@ -1,0 +1,49 @@
+body {
+    font-family: 'Ubuntu', 'Courier New', Courier, monospace;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    font-family: 'Ubuntu', 'Courier New', Courier, monospace;
+    border: 2px solid rgb(139, 233, 244);
+    padding: 20px;
+    border-radius: 25px;
+    width: 25%;
+    margin: auto;
+    font-size: 16px;
+    background-color: aliceblue;
+    box-shadow: 0 0 12px rgba(105, 169, 185, 0.1);
+}
+
+form label{
+    font-weight: bold;
+}
+form input {
+    font-family: 'Ubuntu', 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 9px;
+}
+
+button {
+    font-family: 'Ubuntu', 'Courier New', Courier, monospace;
+    font-size: 16px;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgb(192, 192, 192);
+}
+
+#res {
+    text-align: center;
+    font-size: 20px;
+}
+
+#phn {
+    width: 226px;
+}

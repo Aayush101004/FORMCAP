@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="cap.js"></script>
+</head>
+
+<body>
+    <h2>LOGIN FORM WITH RANDOM CAPTCHA</h2>
+    <form onsubmit="check();return false;">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your Name" name="name" id="name"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" placeholder="Enter your Age" name="age" id="age"><br><br>
+        <label for="gen">Gender:</label><br><br>
+        <div id="gend">
+            <input type="radio" name="gen">Male
+            <input type="radio" name="gen">Female
+            <input type="radio" name="gen">Others<br><br>
+        </div>
+        <label for="phn">Phone Number:</label>
+        <input type="text" placeholder="Enter your Phone Number" name="phn" id="phn"><br><br>
+        <button onclick="gencap(100000,999999);return false;" id="genc">Generate Captcha</button><br><br>
+        <label for="cap">Captcha:</label>
+        <input type="number" placeholder="Enter the Captcha" name="cap" id="capc"><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button><br><br>
+        <div id="res"></div>
+        <div class="res1"></div>
+    </form>
+</body>
+
+</html>
